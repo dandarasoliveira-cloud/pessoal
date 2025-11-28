@@ -1,80 +1,129 @@
 <!DOCTYPE html>
- <html>
-    <head>
-        <title>Dandara-formulario</title>
-    <link>
-    <style>
-        body{
+<html>
+<head>
+    <title>Pagina Pessoal __Dandara dos Santos de Oliveira____ </title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
     font-family: Arial, sans-serif;
-    background-color: #dbb79e;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
     padding: 20px;
 }
 
-.caixa-Formulario{
-    width: 400px;
-    margin: 0 auto;
-    
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    padding: 25px;
-    
-}
 
-h1{
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-    color: #0b4f0e;
+}
 
-p{
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+} 
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    margin: 20px 0;
+}
+section#sobre, 
+section#projetos, 
+section#contato {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
     text-align: center;
-    color: #4c704e;
-}
-    
-    label,
-    input,
-    textarea,
-    button{
-           display: block;
-}
-label{
-      margin-top: 15px;
-      margin-bottom: 5px;
-      fron-weight: bold;
-}
-input,
-textarea{
-         padding: 8px;
-}
-button{
-       margin-top: 20px;
-       padding: 10px;
+    margin-top: 20px;
 }
 
-    </style>
-    </head>
 
-     <body>
+</style>
+<body>
+    <header>
+        <h1>DANDARA DOS SANTOS DE OLIVEIRA</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-     <div class="caixa-Formulario">
 
-        <h1>formulário</h1>
-        <p> deixe aqui a sua dúvida</p>
-        
-        <form>
-        <label for="nome-usuario"> 1.nome:</label>
-        <input type="text" id="nome-usuario" placeholder="digite aqui se nome...">
-        
-        <label for="e-mail"> 2.e-mail:</label>
-        <input type="text" id="e-mail" placeholder="digite aqui seu e-mail">
-        
-        <label FOR="msg-usuario"> 3. mensagem:</label>
-        <textarea id="msg-usuario"></textarea>
-        
-        <button type="submit">enviar</button>
-        
-        </form>
-              </div>
-     </body>
- </html>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou Aluno da Escola EDUCAÇÃO BASICA MUNICIPAL CRIANÇA DO FUTURO CAIC   Gosto de compartilhar ou conhecer MUITAS COISAS NOVAS 
+          segfsegd
+          dgdg
+          dgdggdg
+          d
+          dgdggdgdg
+          dgfgd
+          gd
 
-    
+
+          conhecimento e criar projetos que ajudam as pessoas a aprender e crescer.</p>
+    </section>
+
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <ul>
+            <li>Projeto 1: <a href="#">Descrição do Projeto 1</a></li>
+            <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+              <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+                        <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+              <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+        </ul>
+    </section>
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo via <a href="mailto:e-mail@gmail.com">e-mail@gmail.com</a>.</p>
+    </section>
+
+
+    <footer>
+        <p>&copy; @2025 - Fulano de Tal</p>
+    </footer>
+</body>
+</html>
+
 
